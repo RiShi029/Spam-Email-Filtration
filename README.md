@@ -26,7 +26,7 @@ The objective of spam mail filtration is to automatically identify and separate 
 ### 4. Model Building and Comparison:
  - Utilized multiple classification algorithms such as Naive Bayes, Logistic Regression, and Support Vector Machines (SVM).
  - Split the data into training and testing sets for model evaluation.
- - Compared the performance of each model using metrics like accuracy, precision, recall, and F1-score.
+ - Compared the performance of each model using accuracy metrics.
  - Employed a voting ensemble method to combine predictions from multiple classifiers for improved performance.
  ![Models](./images/classifiers.png)
  ![Classifacation algo](./images/algo.png)
