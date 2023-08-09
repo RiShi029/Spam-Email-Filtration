@@ -40,3 +40,5 @@ The objective of spam mail filtration is to automatically identify and separate 
  - Integrated Streamlit, a powerful Python library for creating interactive web applications, to visualize and present the project's results.
  ![Spam](./images/Streamlit1.png)
  ![Not Spam](./images/Streamlit2.png)
+
+ - Public link : [Click Here](https://spam-email-filtration-tft5hc6ucymgutd8s6utap.streamlit.app/)
