@@ -14,6 +14,8 @@ from nltk.stem.porter import PorterStemmer
 
 ps = PorterStemmer()
 nltk.download('punkt')
+nltk.download('stopwords')
+nltk.data.path.append("/path/to/nltk_data")
 
 def transform_text(text):
     text = text.lower()
