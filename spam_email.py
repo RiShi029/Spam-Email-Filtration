@@ -46,8 +46,8 @@ data = 'sadasdas'
 with open('/tmp/not_exist/vectorizer.pkl', 'wb') as f:
     pickle.dump(data, f)
 
-tfidf = pickle.load(open('Spam-Email-Filtration/vectorizer.pkl','rb'))
-model = pickle.load(open('Spam-Email-Filtration/model.pkl','rb'))
+tfidf = pickle.load(open('vectorizer.pkl','rb'))
+model = pickle.load(open('model.pkl','rb'))
 
 st.title("Email Spam Classifier")
 
