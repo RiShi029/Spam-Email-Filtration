@@ -4,7 +4,6 @@ numpy
 matplotlib
 seaborn
 nltk
-String
 scikit-learn
 WordCloud
 stopwords
